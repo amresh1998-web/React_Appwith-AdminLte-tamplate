@@ -1,0 +1,25 @@
+/* Add this to your CSS file */
+.data-table {
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .data-table .rdt_TableHead {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    font-size: medium;
+  
+    
+  }
+  
+  .data-table .rdt_TableRow {
+    transition: background 0.2s;
+    font-size: medium;
+    
+  }
+  
+  .data-table .rdt_TableRow:hover {
+    background-color: #f1f1f1;
+  }
+  
