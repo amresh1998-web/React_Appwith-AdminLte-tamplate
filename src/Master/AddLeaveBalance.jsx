@@ -82,6 +82,9 @@ const AddLeaveBalance = () => {
                         <div className='col-sm-6'>
                             <h2>Add Leave Balance</h2>
                         </div>
+                        <div>
+                            <P>test</P>
+                            </div>
 
                     </div>
                 </div>
