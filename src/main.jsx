@@ -7,7 +7,6 @@ import store from './Redux/slice.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    
     <Provider store={store}>
       <App />
     </Provider>
