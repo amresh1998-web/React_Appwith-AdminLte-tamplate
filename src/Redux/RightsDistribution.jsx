@@ -65,7 +65,6 @@ const rightsSlice = createSlice({
         state.loading = false;
         state.error = action.payload;
       })
-
       // Fetch menu rights
       .addCase(fetchMenuRights.pending, (state) => {
         state.loading = true;
