@@ -3,10 +3,6 @@ import apiService from "../ApiServices/ApiServices";
 import { useNavigate, useLocation } from "react-router-dom";
 import Textbox from "../CommonComponents/Textbox";
 
-
-
-
-
 const AddLeaveBalance = () => {
     const navigate = useNavigate();
     const location = useLocation();
@@ -46,8 +42,7 @@ const AddLeaveBalance = () => {
         try {
           const response = await apiService.post("/Employee/ComboFillForwardingEmployeeId_Leave/", {
             prefix: value,
-          });
-    
+          });    
           setSuggestions(response.data || []);
           console.log(response.data);
         } catch (error) {
@@ -91,11 +86,9 @@ const AddLeaveBalance = () => {
                 <section className="content">
                     <div className="container-fluid">
                         <div className="card">
-
                             <div className="col-md-12">
                                 <form onSubmit={handleSubmit}>
                                     <div className="card-body">
-
                                         <div className="row">
                                             <div className="col-md-4">
                                                 <Textbox
