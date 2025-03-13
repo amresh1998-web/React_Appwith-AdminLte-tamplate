@@ -17,14 +17,14 @@ const RightsDistribution = () => {
   //   fetchRoles();
   // }, []);
 
-  // const fetchRoles = async () => {
-  //   try {
-  //     const response = await apiService.get("/role/ComboRole");
-  //     setRoles(response.data);
-  //   } catch (error) {
-  //     console.error("Error fetching roles", error);
-  //   }
-  // };
+  const fetchRoles = async () => {
+    try {
+      const response = await apiService.get("/role/ComboRole");
+      setRoles(response.data);
+    } catch (error) {
+      console.error("Error fetching roles", error);
+    }
+  };
 
   // const fetchMenuRights = async (roleId) => {
   //   setLoading(true);
@@ -158,8 +158,6 @@ const RightsDistribution = () => {
       center: true,
     },
   ];
-
-  
 
   return (
     <div className="content-wrapper">
