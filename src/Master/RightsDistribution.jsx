@@ -159,8 +159,6 @@ const RightsDistribution = () => {
     },
   ];
 
-  
-
   return (
     <div className="content-wrapper">
       <div className="content-header">
